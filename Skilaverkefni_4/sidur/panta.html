@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Veitingastaðurinn">
+    <meta property="og:description" content="Veitingastaðurinn er veitingastadur">
+    <meta property="og:image" content="sharing.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <title>Panta</title>
+</head>
+<body>
+    <header>
+        <h1>Veitingastaðurinn</h1>
+        <h3>Við erum búinn að elda mat fyrir folk síðan 2001</h3>
+    </header>
+    <nav class="flex-container">
+      <ul>
+        <li class="flex-item"><a href="../index.html">Forsíða</a></li>
+        <li class="flex-item"><a href="um.html">Um Okkur</a></li>
+        <li class="flex-item"><a href="matsedill.html">Matseðill</a></li>
+        <li class="flex-item"><a href="panta.html">Panta</a></li>
+      </ul>
+    </nav>
+    <main>
+        <div class="row">
+            <div class="border">
+                <h1>Panta Borð</h1>
+                <label for="appt">Hvenær viltu koma?:</label>
+                <input type="time" id="appt" name="appt"><br>
+                <label for="people">Hve mörg?:</label>
+                <select name="people">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <form>
+                    <label for="upplysingar">Viltu taka eitthvað fram?:</label><br>
+                    <input type="text" name="upplysingar">
+                </form>
+            </div>
+            <div class="border">
+                <h1>Panta Mat</h1>
+                <label for="matur1">Matur 1:</label><br>
+                <input type="text" name="matur1"><br>
+                <label for="matur2">Matur 2:</label><br>
+                <input type="text" name="matur2"><br>
+                <label for="matur3">Matur 3:</label><br>
+                <input type="text" name="matur3"><br>
+                <label for="matur4">Matur 4:</label><br>
+                <input type="text" name="matur4"><br>
+                <label for="matur5">Matur 5:</label><br>
+                <input type="text" name="matur5"><br>
+            </div>
+        </div>
+          <div class="border">
+            <h1>Þínar upplýsingar</h1>
+            <form>
+                <label for="name">Nafn:</label><br>
+                <input type="text" name="name"><br>
+                <label for="address">Heimilisfang:</label><br>
+                <input type="text" name="address"><br>
+                <label for="number">Phone number:</label><br>
+                <input type="text" name="number">
+            </form>
+            <h1>Samþykkja og panta</h1>
+            <form>
+                <input type="checkbox" name="accept" value="accept">
+                <label for="vehicle1"> Ég samþykki skilmála Veitingastaðsins</label><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+<footer>
+    <div class="content">
+      <div class="box">
+        <dl>
+          <dt>Mánudaga til fimmtudaga</dt>
+          <dd>09:00–11:30</dd>
+          <dd>Lokað milli 11:30-13:00</dd>
+          <dd>13:00–18:00</dd>
+
+          <dt>Föstudaga</dt>
+          <dd>10:00–22:00</dd>
+          <dt>Laugardaga</dt>
+          <dd>11:00–22:00</dd>
+          <dt>Sunnudaga</dt>
+          <dd>Lokað</dd>
+        </dl>
+      </div>
+      <div class="box">
+        <section>
+          <h2>Hafðu samband</h2>
+          <p>....</p>
+          <p>....</p>
+          <p>....</p>
+          <p>....</p>
+        </section>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
